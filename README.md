@@ -4,6 +4,7 @@
 
 
 #Improvement needed
-- [ ] InputText
-- [ ] Button
-- [ ] Text
+- [x] InputText
+- [x] Button
+- [x] Text
+- [ ] Theme
