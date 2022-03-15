@@ -1,0 +1,11 @@
+{
+  "_comment": "src/localization/en/translation.json",
+  "noInternet":"",
+  "apiError":"Server Error",
+  "error":"Error",
+  "invalid":"Invalid",
+  "success":"Success",
+  "button": {
+    "login": "Login"
+  }
+}
