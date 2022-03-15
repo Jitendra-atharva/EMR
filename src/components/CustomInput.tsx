@@ -7,9 +7,8 @@ import {
   TouchableOpacity,
   Image,
 } from 'react-native';
-import {assets, colors, commonStyles, fonts} from '../themes';
+import {colors, commonStyles, fonts} from '../themes';
 import Constant from '../utilities/Constant';
-import {deviceBasedDynamicDimension} from '../utilities/Util';
 import Typography from './Typography';
 
 interface Props {
@@ -18,15 +17,16 @@ interface Props {
   onPressIcon?: () => void;
   onSubmitEditing?: () => void;
   value?: string;
-  testID: string;
+  testID?: string;
   placeholder: string;
   showIcon?: boolean;
   IsShow?: boolean;
   customRef?: any;
   returnKeyType?: any;
   errorMessage: string;
-  leftIcon: number;
-  rightIcon: number;
+  leftIcon?: number;
+  rightIcon?: number;
+  label?: string;
 }
 interface State {
   value?: string;
@@ -49,6 +49,7 @@ export default class CustomTextInput extends Component<Props, State> {
     errorMessage: PropTypes.string,
     leftIcon: PropTypes.number,
     rightIcon: PropTypes.number,
+    label: PropTypes.string,
   };
 
   constructor(props: any) {
@@ -71,13 +72,19 @@ export default class CustomTextInput extends Component<Props, State> {
       errorMessage,
       leftIcon,
       rightIcon,
+      label,
     } = this.props;
 
     return (
-      <View>
+      <View >
+        <View style={styles.labelStyle}>
+          <Typography color="black">{label}</Typography>
+        </View>
+
         <View style={errorMessage ? styles.errorContainer : styles.container}>
           <View style={styles.appIconPadding}>
             <Image
+              //@ts-ignore
               source={leftIcon}
               style={styles.appIconStyle}
               resizeMode={'cover'}
@@ -108,6 +115,7 @@ export default class CustomTextInput extends Component<Props, State> {
               }>
               <Image
                 style={styles.appIconStyle}
+                //@ts-ignore
                 source={rightIcon}
                 resizeMode={'cover'}
               />
@@ -146,4 +154,8 @@ const styles = StyleSheet.create({
     fontFamily: fonts.MED,
     fontSize: Constant.staticStyle.fnt16,
   },
+  labelStyle:{
+    paddingBottom:Constant.staticStyle.pb5
+  }
+
 });

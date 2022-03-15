@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontFamily: fonts.MED,
-    fontSize: deviceBasedDynamicDimension(16, true, 1),
+    fontSize: Constant.staticStyle.fnt16,
     fontStyle: 'normal',
     fontWeight: 'normal',
     color: colors.black,

@@ -4,12 +4,15 @@ const Constant = {
     
 }
 const staticStyle={
+    //Hight
     h45: deviceBasedDynamicDimension(45, true, 1),
+    
     br6:deviceBasedDynamicDimension(6, true, 1),
     br10:deviceBasedDynamicDimension(10, true, 1),
     pa:deviceBasedDynamicDimension(10, true, 1),
     pt:deviceBasedDynamicDimension(10, true, 1),
-    pb:deviceBasedDynamicDimension(10, true, 1),
+    pb10:deviceBasedDynamicDimension(10, true, 1),
+    pb5:deviceBasedDynamicDimension(5, true, 1),
     ps:deviceBasedDynamicDimension(10, true, 1),
     pe:deviceBasedDynamicDimension(10, true, 1),
     ps5:deviceBasedDynamicDimension(5, true, 1),
@@ -19,7 +22,6 @@ const staticStyle={
     me10:deviceBasedDynamicDimension(10, true, 1),
 
     
-
     fnt12:deviceBasedDynamicDimension(12, true, 1),
     fnt14:deviceBasedDynamicDimension(14, true, 1),
     fnt16:deviceBasedDynamicDimension(16, true, 1),
