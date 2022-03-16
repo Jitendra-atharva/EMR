@@ -2,7 +2,7 @@
 
 ## Project Structure
 
-src
+ - src
   -component 
     // custom componet like textInput
     
