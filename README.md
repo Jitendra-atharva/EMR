@@ -39,7 +39,7 @@ npm install -g expo-cli
 
 1. Install React Native as described at [https://facebook.github.io/react-native/docs/getting-started.html#content](https://facebook.github.io/react-native/docs/getting-started.html#content)
 2. Clone this repository
-3. Run `yarn install` , all required components will be installed automatically
+3. If you are using `yarn` Run `yarn install` or `npm` Run `npm install`, all required components will be installed automatically
 
     ### iOS
       
