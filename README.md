@@ -2,43 +2,22 @@
 
 ## Project Structure
 
- - src
-   -component 
-      // custom componet like textInput
-    
-  -fremework
-   //contain app block, enum, and singletonFactory 
-   
-  -module
-   -screenName
-     -index
-     -controler
-     
-  -localization
-   //location releted file
-  -resources
-    -icon
-      -screen
-        //png jpeg icon
-    -image
-      -screen
-        //png jpeg image
-  -thems
-    -assets
-      //contain all image and icon name 
-    -colors
-      //contain all app style and font color
-    -fonts
-      //contain all app font famaly
-    -style
-     //contain common app style
-  -utilities
-    -networkconfig
-      //contain base url, method, end point
-    -constant
-     //contain static string or numner
-    -other util file
-    //contain navigation, storage, validation 
+
+ .src
+    ├──component       # custom componet like textInput (jsx)
+    ├──fremwork        # contain app block, enum, and singletonFactory (ts)
+    ├──module          # contain app screen (ts,tsx)
+    ├──localization.   # contain localization file (json,ts)
+    ├──resources.      # contain app icon and images (ts)
+    ├──thems.          # cntain app style releted (ts)
+    ├──utilities.      # contain app releted file  (js, ts) 
+
+
+this project using typeScript 
+  - ts : for without using jsx
+  - tsx : using jsx. 
+  - json
+ 
     
 ## Setup
 
