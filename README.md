@@ -1,6 +1,6 @@
 # EMR
 
-Project Structure
+## Project Structure
 
 src
   -component 
@@ -40,17 +40,21 @@ src
     -other util file
     //contain navigation, storage, validation 
     
-#Setup
+## Setup
 
 node v17.3.1
 yarn v1.22.11 (OR npm v8.3.0)
 
+```
 $ npm install -g npm@latest
 $ npm install -g yarn
+```
 Other (Optional)
 
+```
 npm install -g react-native-cli
 npm install -g expo-cli
+```
 
 Build and run the app
 Install React Native as described at https://facebook.github.io/react-native/docs/getting-started.html#content
