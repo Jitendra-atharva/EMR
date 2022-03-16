@@ -51,4 +51,5 @@ npm install -g expo-cli
     no steps required
         
 4. It is recommended to run `react-native start` command from root project directory.
-5. Run your project from XCode (`Cmd+R`) for iOS, or use `react-native run-android` to run your project on Android.   
+5. Run your project from XCode (`Cmd+R`) for iOS, or use `react-native run-android` to run your project on Android.
+6. If you are using `yarn` use `yarn android` or `yarn ios` to run your project on Android.
