@@ -3,7 +3,7 @@
 ## Project Structure
 
 
- .src
+    .
     ├──component       # custom componet like textInput (jsx)
     ├──fremwork        # contain app block, enum, and singletonFactory (ts)
     ├──module          # contain app screen (ts,tsx)
@@ -11,7 +11,7 @@
     ├──resources.      # contain app icon and images (ts)
     ├──thems.          # cntain app style releted (ts)
     ├──utilities.      # contain app releted file  (js, ts) 
-
+    └── ...
 
 this project using typeScript 
   - ts : for without using jsx
