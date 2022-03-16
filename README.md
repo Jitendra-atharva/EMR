@@ -56,20 +56,20 @@ npm install -g react-native-cli
 npm install -g expo-cli
 ```
 
-Build and run the app
-Install React Native as described at https://facebook.github.io/react-native/docs/getting-started.html#content
+  ## Build and run the app
 
-Clone this repository
+1. Install React Native as described at [https://facebook.github.io/react-native/docs/getting-started.html#content](https://facebook.github.io/react-native/docs/getting-started.html#content)
+2. Clone this repository
+3. Run `yarn install` , all required components will be installed automatically
 
-Run yarn install , all required components will be installed automatically
-
-iOS
-Run pod install from Shopify-RN/ios folder
-Start XCode and open generated ShopifyRN.xcworkspace
-Android
-no steps required
-
-It is recommended to run react-native start command from root project directory.
-
-Run your project from XCode (Cmd+R) for iOS, or use react-native run-android to run your project on Android.
+    ### iOS
+      
+    1. Run `pod install` from `EMR/ios` folder
+    2. Start XCode and open generated `EMR.xcworkspace`
+     
+    ### Android
     
+    no steps required
+        
+4. It is recommended to run `react-native start` command from root project directory.
+5. Run your project from XCode (`Cmd+R`) for iOS, or use `react-native run-android` to run your project on Android.   
