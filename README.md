@@ -3,8 +3,8 @@
 ## Project Structure
 
  - src
-  -component 
-    // custom componet like textInput
+   -component 
+      // custom componet like textInput
     
   -fremework
    //contain app block, enum, and singletonFactory 
